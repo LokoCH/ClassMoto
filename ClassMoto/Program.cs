@@ -18,7 +18,6 @@ namespace ClassMoto
                                        new Moto("Honda","CBR600RR",Color.RED,250,0,Country.JAPAN)
                                       };
 
-
             Random r = new Random();
             foreach (Moto item in motos)
             {
@@ -26,9 +25,6 @@ namespace ClassMoto
                 item.increaseOdometr(r.Next(10000, 100000));
                 Console.WriteLine(item);
             }
-
         }
-
-
     }
 }
